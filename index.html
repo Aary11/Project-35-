@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ball Game</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+  <script src="p5.play.js"></script>
+
+<!-- firebase start -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+
+  <script>
+    // Your Firebase configuration - the part u need to change
+    const firebaseConfig = {
+  apiKey: "AIzaSyD_NE37GWRBAeqBQmniwfOnorlioRgbvrs",
+  authDomain: "project-35-9909a.firebaseapp.com",
+  databaseURL: "https://project-35-9909a-default-rtdb.firebaseio.com",
+  projectId: "project-35-9909a",
+  storageBucket: "project-35-9909a.appspot.com",
+  messagingSenderId: "418741449216",
+  appId: "1:418741449216:web:69250802796284bac25ee5"
+};
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+<!-- firebase end  -->
+
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
